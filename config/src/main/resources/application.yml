@@ -8,6 +8,11 @@ spring:
           uri: https://github.com/GaozyDev/ConfigCloud.git
           username: 670453367@qq.com
           password: MhrkDByiPY5snfa
+  rabbitmq:
+    host: 120.46.136.163
+    port: 5672
+    username: admin
+    password: admin
 eureka:
   client:
     service-url:
@@ -15,4 +20,5 @@ eureka:
 management:
   endpoints:
     web:
-      expose: "*"
+      exposure:
+        include: "*"
