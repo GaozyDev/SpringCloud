@@ -5,9 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/GaozyDev/SpringCloud/config-repo/
+          uri: https://github.com/GaozyDev/SpringCloud.git
           username: 670453367@qq.com
           password: MhrkDByiPY5snfa
+          search-paths: config-repo
   rabbitmq:
     host: 120.46.136.163
     port: 5672
